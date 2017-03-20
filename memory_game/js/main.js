@@ -61,7 +61,14 @@ var createBoard = function () {
 
 createBoard();
 
+//restart game button
 
+var refreshPage = function () {
+	window.location.reload();
+};
+
+var button = document.querySelector('button');
+button.addEventListener('click', refreshPage);
 
 
 
